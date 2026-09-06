@@ -1,0 +1,407 @@
+﻿County,PQIDescription,CtyPQIRate,CtyPhyRate,StPQIRate,StPhyRate,CtyMeanLengthStay,StMeanLengthStay,PQIRateComp,PhySupplyRateComp
+Alameda,Asthma in Younger Adults (Age 18-39),12.4,357.4,16,351.2,2.3,2.5,Low,High
+Alpine,Asthma in Younger Adults (Age 18-39),0.0,0.0,16,351.2,0.0,2.5,Low,Low
+Amador,Asthma in Younger Adults (Age 18-39),0.0,403.8,16,351.2,0.0,2.5,Low,High
+Butte,Asthma in Younger Adults (Age 18-39),14.3,206.5,16,351.2,1.8,2.5,Low,Low
+Calaveras,Asthma in Younger Adults (Age 18-39),31.0,165.5,16,351.2,1.3,2.5,High,Low
+Colusa,Asthma in Younger Adults (Age 18-39),15.9,123.8,16,351.2,2.0,2.5,Low,Low
+Contra Costa,Asthma in Younger Adults (Age 18-39),10.3,469.2,16,351.2,3.1,2.5,Low,High
+Del Norte,Asthma in Younger Adults (Age 18-39),14.2,186.2,16,351.2,1.0,2.5,Low,Low
+El Dorado,Asthma in Younger Adults (Age 18-39),20.8,284.6,16,351.2,1.9,2.5,High,Low
+Fresno,Asthma in Younger Adults (Age 18-39),28.4,317.7,16,351.2,2.0,2.5,High,Low
+Glenn,Asthma in Younger Adults (Age 18-39),0.0,48.3,16,351.2,0.0,2.5,Low,Low
+Humboldt,Asthma in Younger Adults (Age 18-39),0.0,279.6,16,351.2,0.0,2.5,Low,Low
+Imperial,Asthma in Younger Adults (Age 18-39),10.8,81.9,16,351.2,3.2,2.5,Low,Low
+Inyo,Asthma in Younger Adults (Age 18-39),0.0,343.3,16,351.2,0.0,2.5,Low,Low
+Kern,Asthma in Younger Adults (Age 18-39),16.2,192.6,16,351.2,3.9,2.5,High,Low
+Kings,Asthma in Younger Adults (Age 18-39),18.9,139.8,16,351.2,4.2,2.5,High,Low
+Lake,Asthma in Younger Adults (Age 18-39),6.3,158.7,16,351.2,3.0,2.5,Low,Low
+Lassen,Asthma in Younger Adults (Age 18-39),10.4,95.5,16,351.2,7.0,2.5,Low,Low
+Los Angeles,Asthma in Younger Adults (Age 18-39),18.3,348.3,16,351.2,2.5,2.5,High,Low
+Madera,Asthma in Younger Adults (Age 18-39),22.5,109.9,16,351.2,3.5,2.5,High,Low
+Marin,Asthma in Younger Adults (Age 18-39),9.4,830.9,16,351.2,2.2,2.5,Low,High
+Mariposa,Asthma in Younger Adults (Age 18-39),54.8,160.2,16,351.2,1.5,2.5,High,Low
+Mendocino,Asthma in Younger Adults (Age 18-39),4.8,318.5,16,351.2,0.0,2.5,Low,Low
+Merced,Asthma in Younger Adults (Age 18-39),15.8,113.3,16,351.2,2.7,2.5,Low,Low
+Modoc,Asthma in Younger Adults (Age 18-39),0.0,572.8,16,351.2,0.0,2.5,Low,High
+Mono,Asthma in Younger Adults (Age 18-39),25.6,344.5,16,351.2,5.0,2.5,High,Low
+Monterey,Asthma in Younger Adults (Age 18-39),24.1,292.1,16,351.2,2.4,2.5,High,Low
+Napa,Asthma in Younger Adults (Age 18-39),11.3,415.1,16,351.2,1.8,2.5,Low,High
+Nevada,Asthma in Younger Adults (Age 18-39),0.0,451.1,16,351.2,0.0,2.5,Low,High
+Orange,Asthma in Younger Adults (Age 18-39),10.2,431.6,16,351.2,2.7,2.5,Low,High
+Placer,Asthma in Younger Adults (Age 18-39),14.3,581.8,16,351.2,2.9,2.5,Low,High
+Plumas,Asthma in Younger Adults (Age 18-39),26.7,427.4,16,351.2,2.0,2.5,High,High
+Riverside,Asthma in Younger Adults (Age 18-39),16.4,245.9,16,351.2,2.5,2.5,High,Low
+Sacramento,Asthma in Younger Adults (Age 18-39),24.6,409.4,16,351.2,2.2,2.5,High,High
+San Benito,Asthma in Younger Adults (Age 18-39),14.8,59.7,16,351.2,2.0,2.5,Low,Low
+San Bernardino,Asthma in Younger Adults (Age 18-39),24.3,262.5,16,351.2,2.5,2.5,High,Low
+San Diego,Asthma in Younger Adults (Age 18-39),13.3,373.8,16,351.2,2.3,2.5,Low,High
+San Francisco,Asthma in Younger Adults (Age 18-39),17.5,724.8,16,351.2,1.6,2.5,High,High
+San Joaquin,Asthma in Younger Adults (Age 18-39),14.9,250.8,16,351.2,2.8,2.5,Low,Low
+San Luis Obispo,Asthma in Younger Adults (Age 18-39),7.8,286.0,16,351.2,1.6,2.5,Low,Low
+San Mateo,Asthma in Younger Adults (Age 18-39),9.6,400.4,16,351.2,3.0,2.5,Low,High
+Santa Barbara,Asthma in Younger Adults (Age 18-39),6.7,294.9,16,351.2,1.4,2.5,Low,Low
+Santa Clara,Asthma in Younger Adults (Age 18-39),11.8,438.2,16,351.2,2.7,2.5,Low,High
+Santa Cruz,Asthma in Younger Adults (Age 18-39),7.2,370.9,16,351.2,1.8,2.5,Low,High
+Shasta,Asthma in Younger Adults (Age 18-39),18.9,401.5,16,351.2,1.2,2.5,High,High
+Sierra,Asthma in Younger Adults (Age 18-39),0.0,0.0,16,351.2,0.0,2.5,Low,Low
+Siskiyou,Asthma in Younger Adults (Age 18-39),0.0,360.7,16,351.2,0.0,2.5,Low,High
+Solano,Asthma in Younger Adults (Age 18-39),17.6,356.6,16,351.2,3.0,2.5,High,High
+Sonoma,Asthma in Younger Adults (Age 18-39),12.5,463.2,16,351.2,2.0,2.5,Low,High
+Stanislaus,Asthma in Younger Adults (Age 18-39),18.5,262.9,16,351.2,2.4,2.5,High,Low
+Sutter,Asthma in Younger Adults (Age 18-39),14.1,231.0,16,351.2,5.5,2.5,Low,Low
+Tehama,Asthma in Younger Adults (Age 18-39),6.0,158.5,16,351.2,2.0,2.5,Low,Low
+Trinity,Asthma in Younger Adults (Age 18-39),35.3,60.3,16,351.2,6.0,2.5,High,Low
+Tulare,Asthma in Younger Adults (Age 18-39),16.2,187.6,16,351.2,2.9,2.5,High,Low
+Tuolumne,Asthma in Younger Adults (Age 18-39),23.2,311.0,16,351.2,5.3,2.5,High,Low
+Ventura,Asthma in Younger Adults (Age 18-39),10.6,360.3,16,351.2,2.4,2.5,Low,High
+Yolo,Asthma in Younger Adults (Age 18-39),7.9,236.3,16,351.2,3.3,2.5,Low,Low
+Yuba,Asthma in Younger Adults (Age 18-39),11.0,91.5,16,351.2,1.0,2.5,Low,Low
+Alameda,COPD or Asthma in Older Adults (Age 40+),125.3,230.4,134.7,232.4,3.6,3.9,Low,Low
+Alpine,COPD or Asthma in Older Adults (Age 40+),0.0,0.0,134.7,232.4,0.0,3.9,Low,Low
+Amador,COPD or Asthma in Older Adults (Age 40+),197.7,148.9,134.7,232.4,3.1,3.9,High,Low
+Butte,COPD or Asthma in Older Adults (Age 40+),283.8,153.3,134.7,232.4,2.7,3.9,High,Low
+Calaveras,COPD or Asthma in Older Adults (Age 40+),198.5,55.8,134.7,232.4,3.4,3.9,High,Low
+Colusa,COPD or Asthma in Older Adults (Age 40+),223.5,79.0,134.7,232.4,3.5,3.9,High,Low
+Contra Costa,COPD or Asthma in Older Adults (Age 40+),110.9,247.1,134.7,232.4,3.8,3.9,Low,High
+Del Norte,COPD or Asthma in Older Adults (Age 40+),135.8,93.7,134.7,232.4,3.4,3.9,High,Low
+El Dorado,COPD or Asthma in Older Adults (Age 40+),165.3,110.4,134.7,232.4,3.2,3.9,High,Low
+Fresno,COPD or Asthma in Older Adults (Age 40+),234.8,246.1,134.7,232.4,4.3,3.9,High,High
+Glenn,COPD or Asthma in Older Adults (Age 40+),225.5,29.3,134.7,232.4,6.6,3.9,High,Low
+Humboldt,COPD or Asthma in Older Adults (Age 40+),149.9,180.0,134.7,232.4,4.9,3.9,High,Low
+Imperial,COPD or Asthma in Older Adults (Age 40+),69.7,62.2,134.7,232.4,4.6,3.9,Low,Low
+Inyo,COPD or Asthma in Older Adults (Age 40+),180.1,140.3,134.7,232.4,4.2,3.9,High,Low
+Kern,COPD or Asthma in Older Adults (Age 40+),169.9,156.1,134.7,232.4,4.0,3.9,High,Low
+Kings,COPD or Asthma in Older Adults (Age 40+),132.0,125.0,134.7,232.4,5.1,3.9,Low,Low
+Lake,COPD or Asthma in Older Adults (Age 40+),258.2,67.4,134.7,232.4,4.4,3.9,High,Low
+Lassen,COPD or Asthma in Older Adults (Age 40+),230.8,65.9,134.7,232.4,4.7,3.9,High,Low
+Los Angeles,COPD or Asthma in Older Adults (Age 40+),142.3,234.7,134.7,232.4,4.0,3.9,High,High
+Madera,COPD or Asthma in Older Adults (Age 40+),251.2,76.6,134.7,232.4,5.0,3.9,High,Low
+Marin,COPD or Asthma in Older Adults (Age 40+),58.9,296.5,134.7,232.4,4.1,3.9,Low,High
+Mariposa,COPD or Asthma in Older Adults (Age 40+),214.9,57.1,134.7,232.4,3.5,3.9,High,Low
+Mendocino,COPD or Asthma in Older Adults (Age 40+),88.4,133.3,134.7,232.4,3.2,3.9,Low,Low
+Merced,COPD or Asthma in Older Adults (Age 40+),173.6,94.3,134.7,232.4,3.7,3.9,High,Low
+Modoc,COPD or Asthma in Older Adults (Age 40+),388.7,196.0,134.7,232.4,4.1,3.9,High,Low
+Mono,COPD or Asthma in Older Adults (Age 40+),14.5,194.6,134.7,232.4,2.0,3.9,Low,Low
+Monterey,COPD or Asthma in Older Adults (Age 40+),132.1,197.3,134.7,232.4,3.3,3.9,Low,Low
+Napa,COPD or Asthma in Older Adults (Age 40+),80.0,202.0,134.7,232.4,3.5,3.9,Low,Low
+Nevada,COPD or Asthma in Older Adults (Age 40+),58.3,151.9,134.7,232.4,3.1,3.9,Low,Low
+Orange,COPD or Asthma in Older Adults (Age 40+),83.5,260.4,134.7,232.4,4.0,3.9,Low,High
+Placer,COPD or Asthma in Older Adults (Age 40+),87.3,267.1,134.7,232.4,3.5,3.9,Low,High
+Plumas,COPD or Asthma in Older Adults (Age 40+),189.4,132.0,134.7,232.4,2.8,3.9,High,Low
+Riverside,COPD or Asthma in Older Adults (Age 40+),122.7,160.8,134.7,232.4,3.5,3.9,Low,Low
+Sacramento,COPD or Asthma in Older Adults (Age 40+),210.4,272.7,134.7,232.4,3.9,3.9,High,High
+San Benito,COPD or Asthma in Older Adults (Age 40+),84.3,39.3,134.7,232.4,2.1,3.9,Low,Low
+San Bernardino,COPD or Asthma in Older Adults (Age 40+),150.2,200.5,134.7,232.4,3.6,3.9,High,Low
+San Diego,COPD or Asthma in Older Adults (Age 40+),131.8,271.5,134.7,232.4,3.6,3.9,Low,High
+San Francisco,COPD or Asthma in Older Adults (Age 40+),163.0,519.6,134.7,232.4,4.1,3.9,High,High
+San Joaquin,COPD or Asthma in Older Adults (Age 40+),142.7,173.1,134.7,232.4,3.9,3.9,High,Low
+San Luis Obispo,COPD or Asthma in Older Adults (Age 40+),89.0,181.6,134.7,232.4,3.3,3.9,Low,Low
+San Mateo,COPD or Asthma in Older Adults (Age 40+),66.5,224.8,134.7,232.4,3.8,3.9,Low,Low
+Santa Barbara,COPD or Asthma in Older Adults (Age 40+),84.8,231.5,134.7,232.4,3.5,3.9,Low,Low
+Santa Clara,COPD or Asthma in Older Adults (Age 40+),89.9,308.8,134.7,232.4,4.2,3.9,Low,High
+Santa Cruz,COPD or Asthma in Older Adults (Age 40+),93.7,236.7,134.7,232.4,4.5,3.9,Low,High
+Shasta,COPD or Asthma in Older Adults (Age 40+),237.3,205.1,134.7,232.4,3.5,3.9,High,Low
+Sierra,COPD or Asthma in Older Adults (Age 40+),94.2,0.0,134.7,232.4,1.5,3.9,Low,Low
+Siskiyou,COPD or Asthma in Older Adults (Age 40+),119.4,133.8,134.7,232.4,2.9,3.9,Low,Low
+Solano,COPD or Asthma in Older Adults (Age 40+),107.7,214.5,134.7,232.4,4.1,3.9,Low,Low
+Sonoma,COPD or Asthma in Older Adults (Age 40+),117.2,228.3,134.7,232.4,3.5,3.9,Low,Low
+Stanislaus,COPD or Asthma in Older Adults (Age 40+),208.2,185.9,134.7,232.4,3.8,3.9,High,Low
+Sutter,COPD or Asthma in Older Adults (Age 40+),251.6,144.5,134.7,232.4,5.1,3.9,High,Low
+Tehama,COPD or Asthma in Older Adults (Age 40+),168.3,78.2,134.7,232.4,2.9,3.9,High,Low
+Trinity,COPD or Asthma in Older Adults (Age 40+),99.0,16.9,134.7,232.4,3.8,3.9,Low,Low
+Tulare,COPD or Asthma in Older Adults (Age 40+),169.4,146.5,134.7,232.4,4.2,3.9,High,Low
+Tuolumne,COPD or Asthma in Older Adults (Age 40+),159.8,130.3,134.7,232.4,3.7,3.9,High,Low
+Ventura,COPD or Asthma in Older Adults (Age 40+),114.3,205.3,134.7,232.4,3.9,3.9,Low,Low
+Yolo,COPD or Asthma in Older Adults (Age 40+),147.4,235.6,134.7,232.4,3.9,3.9,High,High
+Yuba,COPD or Asthma in Older Adults (Age 40+),311.0,70.3,134.7,232.4,4.7,3.9,High,Low
+Alameda,Community-Acquired Pneumonia,58.7,138.7,88.5,133.3,4.2,4.5,Low,High
+Alpine,Community-Acquired Pneumonia,104.7,0.0,88.5,133.3,3.0,4.5,High,Low
+Amador,Community-Acquired Pneumonia,150.1,101.0,88.5,133.3,4.7,4.5,High,Low
+Butte,Community-Acquired Pneumonia,117.0,80.0,88.5,133.3,3.5,4.5,High,Low
+Calaveras,Community-Acquired Pneumonia,127.6,39.2,88.5,133.3,4.0,4.5,High,Low
+Colusa,Community-Acquired Pneumonia,192.3,48.2,88.5,133.3,3.7,4.5,High,Low
+Contra Costa,Community-Acquired Pneumonia,77.2,146.4,88.5,133.3,4.1,4.5,Low,High
+Del Norte,Community-Acquired Pneumonia,123.6,62.3,88.5,133.3,3.4,4.5,High,Low
+El Dorado,Community-Acquired Pneumonia,108.3,74.2,88.5,133.3,3.8,4.5,High,Low
+Fresno,Community-Acquired Pneumonia,142.6,131.2,88.5,133.3,5.0,4.5,High,Low
+Glenn,Community-Acquired Pneumonia,213.0,18.2,88.5,133.3,3.8,4.5,High,Low
+Humboldt,Community-Acquired Pneumonia,113.6,107.5,88.5,133.3,4.4,4.5,High,Low
+Imperial,Community-Acquired Pneumonia,133.6,35.7,88.5,133.3,4.4,4.5,High,Low
+Inyo,Community-Acquired Pneumonia,141.3,99.6,88.5,133.3,3.6,4.5,High,Low
+Kern,Community-Acquired Pneumonia,114.8,83.2,88.5,133.3,4.1,4.5,High,Low
+Kings,Community-Acquired Pneumonia,90.2,64.8,88.5,133.3,5.3,4.5,High,Low
+Lake,Community-Acquired Pneumonia,149.1,47.3,88.5,133.3,4.5,4.5,High,Low
+Lassen,Community-Acquired Pneumonia,170.7,39.0,88.5,133.3,4.5,4.5,High,Low
+Los Angeles,Community-Acquired Pneumonia,81.4,135.4,88.5,133.3,4.8,4.5,Low,High
+Madera,Community-Acquired Pneumonia,140.4,45.5,88.5,133.3,5.1,4.5,High,Low
+Marin,Community-Acquired Pneumonia,56.3,184.6,88.5,133.3,4.1,4.5,Low,High
+Mariposa,Community-Acquired Pneumonia,201.7,42.1,88.5,133.3,4.2,4.5,High,Low
+Mendocino,Community-Acquired Pneumonia,144.5,90.5,88.5,133.3,4.1,4.5,High,Low
+Merced,Community-Acquired Pneumonia,149.3,52.0,88.5,133.3,4.4,4.5,High,Low
+Modoc,Community-Acquired Pneumonia,318.6,146.1,88.5,133.3,4.0,4.5,High,High
+Mono,Community-Acquired Pneumonia,46.3,97.6,88.5,133.3,4.4,4.5,Low,Low
+Monterey,Community-Acquired Pneumonia,109.0,115.6,88.5,133.3,4.2,4.5,High,Low
+Napa,Community-Acquired Pneumonia,70.5,128.1,88.5,133.3,3.2,4.5,Low,Low
+Nevada,Community-Acquired Pneumonia,96.6,101.1,88.5,133.3,3.8,4.5,High,Low
+Orange,Community-Acquired Pneumonia,72.5,152.3,88.5,133.3,4.3,4.5,Low,High
+Placer,Community-Acquired Pneumonia,85.4,175.8,88.5,133.3,3.8,4.5,Low,High
+Plumas,Community-Acquired Pneumonia,207.6,100.9,88.5,133.3,2.3,4.5,High,Low
+Riverside,Community-Acquired Pneumonia,104.0,93.0,88.5,133.3,4.3,4.5,High,Low
+Sacramento,Community-Acquired Pneumonia,81.4,149.5,88.5,133.3,4.3,4.5,Low,High
+San Benito,Community-Acquired Pneumonia,64.5,23.7,88.5,133.3,3.4,4.5,Low,Low
+San Bernardino,Community-Acquired Pneumonia,123.8,107.6,88.5,133.3,4.4,4.5,High,Low
+San Diego,Community-Acquired Pneumonia,74.2,151.9,88.5,133.3,4.1,4.5,Low,High
+San Francisco,Community-Acquired Pneumonia,63.8,303.5,88.5,133.3,4.0,4.5,Low,High
+San Joaquin,Community-Acquired Pneumonia,94.2,99.6,88.5,133.3,4.6,4.5,High,Low
+San Luis Obispo,Community-Acquired Pneumonia,110.2,96.5,88.5,133.3,4.2,4.5,High,Low
+San Mateo,Community-Acquired Pneumonia,60.0,140.2,88.5,133.3,4.2,4.5,Low,High
+Santa Barbara,Community-Acquired Pneumonia,62.1,115.0,88.5,133.3,3.9,4.5,Low,Low
+Santa Clara,Community-Acquired Pneumonia,68.8,169.0,88.5,133.3,5.2,4.5,Low,High
+Santa Cruz,Community-Acquired Pneumonia,62.0,144.1,88.5,133.3,4.6,4.5,Low,High
+Shasta,Community-Acquired Pneumonia,214.1,122.3,88.5,133.3,4.2,4.5,High,Low
+Sierra,Community-Acquired Pneumonia,112.4,0.0,88.5,133.3,3.7,4.5,High,Low
+Siskiyou,Community-Acquired Pneumonia,241.0,90.1,88.5,133.3,2.6,4.5,High,Low
+Solano,Community-Acquired Pneumonia,98.4,128.6,88.5,133.3,4.3,4.5,High,Low
+Sonoma,Community-Acquired Pneumonia,73.6,146.5,88.5,133.3,3.8,4.5,Low,High
+Stanislaus,Community-Acquired Pneumonia,137.3,101.0,88.5,133.3,4.6,4.5,High,Low
+Sutter,Community-Acquired Pneumonia,133.0,82.1,88.5,133.3,6.4,4.5,High,Low
+Tehama,Community-Acquired Pneumonia,89.3,55.3,88.5,133.3,4.1,4.5,High,Low
+Trinity,Community-Acquired Pneumonia,170.2,13.2,88.5,133.3,3.5,4.5,High,Low
+Tulare,Community-Acquired Pneumonia,121.1,76.1,88.5,133.3,5.0,4.5,High,Low
+Tuolumne,Community-Acquired Pneumonia,102.6,76.5,88.5,133.3,3.6,4.5,High,Low
+Ventura,Community-Acquired Pneumonia,96.9,125.2,88.5,133.3,4.5,4.5,High,Low
+Yolo,Community-Acquired Pneumonia,55.8,109.9,88.5,133.3,4.0,4.5,Low,Low
+Yuba,Community-Acquired Pneumonia,172.6,40.4,88.5,133.3,5.9,4.5,High,Low
+Alameda,Diabetes Composite,170.9,150.0,223.4,147.8,5.3,5.6,Low,High
+Alpine,Diabetes Composite,0.0,0.0,223.4,147.8,0.0,5.6,Low,Low
+Amador,Diabetes Composite,223.8,110.2,223.4,147.8,4.3,5.6,High,Low
+Butte,Diabetes Composite,318.2,93.2,223.4,147.8,4.0,5.6,High,Low
+Calaveras,Diabetes Composite,177.0,39.2,223.4,147.8,4.3,5.6,Low,Low
+Colusa,Diabetes Composite,341.1,48.2,223.4,147.8,6.2,5.6,High,Low
+Contra Costa,Diabetes Composite,172.2,158.2,223.4,147.8,5.4,5.6,Low,High
+Del Norte,Diabetes Composite,356.6,62.3,223.4,147.8,4.1,5.6,High,Low
+El Dorado,Diabetes Composite,147.6,80.7,223.4,147.8,4.2,5.6,Low,Low
+Fresno,Diabetes Composite,335.1,142.7,223.4,147.8,6.3,5.6,High,Low
+Glenn,Diabetes Composite,324.3,18.2,223.4,147.8,4.6,5.6,High,Low
+Humboldt,Diabetes Composite,199.7,110.1,223.4,147.8,5.5,5.6,Low,Low
+Imperial,Diabetes Composite,264.2,41.6,223.4,147.8,6.7,5.6,High,Low
+Inyo,Diabetes Composite,228.8,99.6,223.4,147.8,3.6,5.6,High,Low
+Kern,Diabetes Composite,305.0,89.5,223.4,147.8,5.0,5.6,High,Low
+Kings,Diabetes Composite,229.5,68.4,223.4,147.8,7.0,5.6,High,Low
+Lake,Diabetes Composite,279.4,46.6,223.4,147.8,5.7,5.6,High,Low
+Lassen,Diabetes Composite,102.4,39.0,223.4,147.8,7.7,5.6,Low,Low
+Los Angeles,Diabetes Composite,238.6,151.1,223.4,147.8,5.5,5.6,High,High
+Madera,Diabetes Composite,294.3,50.0,223.4,147.8,6.6,5.6,High,Low
+Marin,Diabetes Composite,87.8,193.8,223.4,147.8,5.5,5.6,Low,High
+Mariposa,Diabetes Composite,223.3,42.1,223.4,147.8,6.1,5.6,Low,Low
+Mendocino,Diabetes Composite,195.5,99.6,223.4,147.8,5.5,5.6,Low,Low
+Merced,Diabetes Composite,331.1,57.0,223.4,147.8,5.9,5.6,High,Low
+Modoc,Diabetes Composite,57.9,146.1,223.4,147.8,2.5,5.6,Low,Low
+Mono,Diabetes Composite,64.8,83.3,223.4,147.8,3.7,5.6,Low,Low
+Monterey,Diabetes Composite,242.0,127.0,223.4,147.8,5.2,5.6,High,Low
+Napa,Diabetes Composite,196.6,147.4,223.4,147.8,4.5,5.6,Low,Low
+Nevada,Diabetes Composite,203.8,112.8,223.4,147.8,5.1,5.6,Low,Low
+Orange,Diabetes Composite,182.3,168.1,223.4,147.8,5.4,5.6,Low,High
+Placer,Diabetes Composite,154.9,198.3,223.4,147.8,5.6,5.6,Low,High
+Plumas,Diabetes Composite,113.2,100.9,223.4,147.8,5.5,5.6,Low,Low
+Riverside,Diabetes Composite,251.2,103.7,223.4,147.8,5.3,5.6,High,Low
+Sacramento,Diabetes Composite,238.7,166.2,223.4,147.8,5.5,5.6,High,High
+San Benito,Diabetes Composite,205.3,32.8,223.4,147.8,4.7,5.6,Low,Low
+San Bernardino,Diabetes Composite,312.0,120.0,223.4,147.8,5.6,5.6,High,Low
+San Diego,Diabetes Composite,205.5,165.8,223.4,147.8,5.6,5.6,Low,High
+San Francisco,Diabetes Composite,155.2,355.2,223.4,147.8,6.8,5.6,Low,High
+San Joaquin,Diabetes Composite,256.4,109.4,223.4,147.8,5.5,5.6,High,Low
+San Luis Obispo,Diabetes Composite,149.2,101.3,223.4,147.8,4.8,5.6,Low,Low
+San Mateo,Diabetes Composite,136.9,151.6,223.4,147.8,6.0,5.6,Low,High
+Santa Barbara,Diabetes Composite,151.5,127.5,223.4,147.8,5.3,5.6,Low,Low
+Santa Clara,Diabetes Composite,151.7,194.6,223.4,147.8,6.5,5.6,Low,High
+Santa Cruz,Diabetes Composite,163.2,148.7,223.4,147.8,5.5,5.6,Low,High
+Shasta,Diabetes Composite,295.3,136.3,223.4,147.8,4.4,5.6,High,Low
+Sierra,Diabetes Composite,74.9,0.0,223.4,147.8,15.5,5.6,Low,Low
+Siskiyou,Diabetes Composite,264.3,90.3,223.4,147.8,3.6,5.6,High,Low
+Solano,Diabetes Composite,202.5,140.5,223.4,147.8,6.3,5.6,Low,Low
+Sonoma,Diabetes Composite,178.0,157.4,223.4,147.8,6.4,5.6,Low,High
+Stanislaus,Diabetes Composite,319.8,109.4,223.4,147.8,6.1,5.6,High,Low
+Sutter,Diabetes Composite,298.7,97.3,223.4,147.8,6.9,5.6,High,Low
+Tehama,Diabetes Composite,298.3,53.0,223.4,147.8,3.5,5.6,High,Low
+Trinity,Diabetes Composite,131.5,13.2,223.4,147.8,9.4,5.6,Low,Low
+Tulare,Diabetes Composite,314.3,85.9,223.4,147.8,6.0,5.6,High,Low
+Tuolumne,Diabetes Composite,194.0,79.3,223.4,147.8,5.0,5.6,Low,Low
+Ventura,Diabetes Composite,205.2,138.1,223.4,147.8,5.2,5.6,Low,Low
+Yolo,Diabetes Composite,165.7,118.5,223.4,147.8,5.2,5.6,Low,Low
+Yuba,Diabetes Composite,366.0,41.9,223.4,147.8,6.1,5.6,High,Low
+Alameda,Heart Failure,324.8,177.3,353.7,161.2,4.8,4.9,Low,High
+Alpine,Heart Failure,104.7,0.0,353.7,161.2,4.0,4.9,Low,Low
+Amador,Heart Failure,481.6,123.8,353.7,161.2,4.2,4.9,High,Low
+Butte,Heart Failure,685.0,106.1,353.7,161.2,4.0,4.9,High,Low
+Calaveras,Heart Failure,377.5,46.3,353.7,161.2,4.6,4.9,High,Low
+Colusa,Heart Failure,521.0,59.7,353.7,161.2,3.5,4.9,High,Low
+Contra Costa,Heart Failure,366.9,172.6,353.7,161.2,4.7,4.9,High,High
+Del Norte,Heart Failure,389.8,78.8,353.7,161.2,3.8,4.9,High,Low
+El Dorado,Heart Failure,312.7,104.6,353.7,161.2,4.2,4.9,Low,Low
+Fresno,Heart Failure,451.5,160.6,353.7,161.2,5.3,4.9,High,Low
+Glenn,Heart Failure,726.0,18.2,353.7,161.2,4.5,4.9,High,Low
+Humboldt,Heart Failure,350.9,131.9,353.7,161.2,5.8,4.9,Low,Low
+Imperial,Heart Failure,278.1,43.4,353.7,161.2,4.5,4.9,Low,Low
+Inyo,Heart Failure,222.1,192.8,353.7,161.2,2.8,4.9,Low,High
+Kern,Heart Failure,333.4,99.7,353.7,161.2,4.4,4.9,Low,Low
+Kings,Heart Failure,333.2,73.7,353.7,161.2,5.1,4.9,Low,Low
+Lake,Heart Failure,439.8,69.3,353.7,161.2,4.6,4.9,High,Low
+Lassen,Heart Failure,162.1,39.0,353.7,161.2,4.5,4.9,Low,Low
+Los Angeles,Heart Failure,376.9,160.6,353.7,161.2,4.9,4.9,High,Low
+Madera,Heart Failure,368.2,56.4,353.7,161.2,4.9,4.9,High,Low
+Marin,Heart Failure,246.9,229.3,353.7,161.2,4.8,4.9,Low,High
+Mariposa,Heart Failure,446.6,63.5,353.7,161.2,4.5,4.9,High,Low
+Mendocino,Heart Failure,429.3,128.2,353.7,161.2,4.6,4.9,High,Low
+Merced,Heart Failure,455.9,57.8,353.7,161.2,4.7,4.9,High,Low
+Modoc,Heart Failure,159.3,197.2,353.7,161.2,4.7,4.9,Low,High
+Mono,Heart Failure,64.8,178.6,353.7,161.2,3.9,4.9,Low,High
+Monterey,Heart Failure,374.1,143.1,353.7,161.2,4.5,4.9,High,Low
+Napa,Heart Failure,295.8,163.3,353.7,161.2,4.1,4.9,Low,High
+Nevada,Heart Failure,324.0,144.7,353.7,161.2,4.5,4.9,Low,Low
+Orange,Heart Failure,250.6,178.1,353.7,161.2,4.8,4.9,Low,High
+Placer,Heart Failure,299.9,232.2,353.7,161.2,4.8,4.9,Low,High
+Plumas,Heart Failure,251.6,144.0,353.7,161.2,3.4,4.9,Low,Low
+Riverside,Heart Failure,353.2,114.2,353.7,161.2,4.4,4.9,Low,Low
+Sacramento,Heart Failure,474.2,185.4,353.7,161.2,5.0,4.9,High,High
+San Benito,Heart Failure,285.5,38.6,353.7,161.2,4.3,4.9,Low,Low
+San Bernardino,Heart Failure,380.1,131.7,353.7,161.2,4.4,4.9,High,Low
+San Diego,Heart Failure,312.1,189.6,353.7,161.2,4.8,4.9,Low,High
+San Francisco,Heart Failure,356.0,344.6,353.7,161.2,6.0,4.9,High,High
+San Joaquin,Heart Failure,465.4,115.7,353.7,161.2,4.7,4.9,High,Low
+San Luis Obispo,Heart Failure,277.5,127.2,353.7,161.2,4.7,4.9,Low,Low
+San Mateo,Heart Failure,276.1,164.6,353.7,161.2,5.0,4.9,Low,High
+Santa Barbara,Heart Failure,221.8,148.0,353.7,161.2,4.4,4.9,Low,Low
+Santa Clara,Heart Failure,308.1,201.5,353.7,161.2,5.8,4.9,Low,High
+Santa Cruz,Heart Failure,278.4,165.0,353.7,161.2,4.6,4.9,Low,High
+Shasta,Heart Failure,521.4,157.9,353.7,161.2,4.4,4.9,High,Low
+Sierra,Heart Failure,112.4,0.0,353.7,161.2,3.0,4.9,Low,Low
+Siskiyou,Heart Failure,194.6,114.8,353.7,161.2,2.8,4.9,Low,Low
+Solano,Heart Failure,363.7,160.3,353.7,161.2,5.1,4.9,High,Low
+Sonoma,Heart Failure,362.7,178.2,353.7,161.2,4.5,4.9,High,High
+Stanislaus,Heart Failure,525.9,129.8,353.7,161.2,4.8,4.9,High,Low
+Sutter,Heart Failure,582.4,89.6,353.7,161.2,6.6,4.9,High,Low
+Tehama,Heart Failure,501.2,58.4,353.7,161.2,3.7,4.9,High,Low
+Trinity,Heart Failure,232.1,48.7,353.7,161.2,4.3,4.9,Low,Low
+Tulare,Heart Failure,327.3,95.9,353.7,161.2,4.9,4.9,Low,Low
+Tuolumne,Heart Failure,318.8,120.3,353.7,161.2,4.3,4.9,Low,Low
+Ventura,Heart Failure,293.5,147.1,353.7,161.2,4.9,4.9,Low,Low
+Yolo,Heart Failure,255.9,122.5,353.7,161.2,4.8,4.9,Low,Low
+Yuba,Heart Failure,505.1,61.1,353.7,161.2,6.4,4.9,High,Low
+Alameda,Hypertension,36.3,179.1,49,161.5,3.1,3.0,Low,High
+Alpine,Hypertension,0.0,0.0,49,161.5,0.0,3.0,Low,Low
+Amador,Hypertension,51.0,123.8,49,161.5,3.3,3.0,High,Low
+Butte,Hypertension,107.9,108.3,49,161.5,2.9,3.0,High,Low
+Calaveras,Hypertension,36.4,46.3,49,161.5,3.1,3.0,Low,Low
+Colusa,Hypertension,24.8,59.7,49,161.5,6.0,3.0,Low,Low
+Contra Costa,Hypertension,41.1,173.8,49,161.5,2.8,3.0,Low,High
+Del Norte,Hypertension,80.8,78.8,49,161.5,2.4,3.0,High,Low
+El Dorado,Hypertension,23.2,105.5,49,161.5,2.6,3.0,Low,Low
+Fresno,Hypertension,68.1,160.7,49,161.5,3.7,3.0,High,Low
+Glenn,Hypertension,58.1,18.2,49,161.5,3.3,3.0,High,Low
+Humboldt,Hypertension,20.2,130.3,49,161.5,4.1,3.0,Low,Low
+Imperial,Hypertension,29.5,47.3,49,161.5,3.3,3.0,Low,Low
+Inyo,Hypertension,40.4,192.8,49,161.5,2.2,3.0,Low,High
+Kern,Hypertension,38.4,99.9,49,161.5,2.9,3.0,Low,Low
+Kings,Hypertension,36.6,74.8,49,161.5,3.6,3.0,Low,Low
+Lake,Hypertension,28.3,66.2,49,161.5,2.7,3.0,Low,Low
+Lassen,Hypertension,4.3,39.0,49,161.5,4.0,3.0,Low,Low
+Los Angeles,Hypertension,59.3,160.6,49,161.5,2.9,3.0,High,Low
+Madera,Hypertension,59.7,58.4,49,161.5,2.7,3.0,High,Low
+Marin,Hypertension,25.7,229.2,49,161.5,3.5,3.0,Low,High
+Mariposa,Hypertension,36.0,63.5,49,161.5,1.8,3.0,Low,Low
+Mendocino,Hypertension,39.7,130.0,49,161.5,3.3,3.0,Low,Low
+Merced,Hypertension,49.8,60.3,49,161.5,2.6,3.0,High,Low
+Modoc,Hypertension,14.5,197.2,49,161.5,3.0,3.0,Low,High
+Mono,Hypertension,18.5,178.6,49,161.5,2.0,3.0,Low,High
+Monterey,Hypertension,49.5,141.4,49,161.5,2.5,3.0,High,Low
+Napa,Hypertension,18.5,166.6,49,161.5,1.9,3.0,Low,High
+Nevada,Hypertension,35.3,142.8,49,161.5,2.7,3.0,Low,Low
+Orange,Hypertension,32.7,177.6,49,161.5,2.8,3.0,Low,High
+Placer,Hypertension,34.9,233.7,49,161.5,2.8,3.0,Low,High
+Plumas,Hypertension,6.3,144.0,49,161.5,5.0,3.0,Low,Low
+Riverside,Hypertension,61.1,115.3,49,161.5,2.6,3.0,High,Low
+Sacramento,Hypertension,55.0,186.6,49,161.5,2.9,3.0,High,High
+San Benito,Hypertension,25.4,40.6,49,161.5,1.8,3.0,Low,Low
+San Bernardino,Hypertension,80.2,132.7,49,161.5,2.8,3.0,High,Low
+San Diego,Hypertension,41.1,188.7,49,161.5,2.8,3.0,Low,High
+San Francisco,Hypertension,41.8,345.0,49,161.5,3.1,3.0,Low,High
+San Joaquin,Hypertension,48.5,115.6,49,161.5,4.0,3.0,Low,Low
+San Luis Obispo,Hypertension,21.9,128.2,49,161.5,2.6,3.0,Low,Low
+San Mateo,Hypertension,20.4,163.4,49,161.5,2.7,3.0,Low,High
+Santa Barbara,Hypertension,21.9,146.5,49,161.5,3.0,3.0,Low,Low
+Santa Clara,Hypertension,40.1,200.2,49,161.5,3.4,3.0,Low,High
+Santa Cruz,Hypertension,35.0,164.3,49,161.5,2.5,3.0,Low,High
+Shasta,Hypertension,67.1,157.7,49,161.5,3.6,3.0,High,Low
+Sierra,Hypertension,37.5,0.0,49,161.5,3.0,3.0,Low,Low
+Siskiyou,Hypertension,37.8,114.8,49,161.5,2.4,3.0,Low,Low
+Solano,Hypertension,37.8,162.6,49,161.5,3.1,3.0,Low,High
+Sonoma,Hypertension,35.0,179.0,49,161.5,2.5,3.0,Low,High
+Stanislaus,Hypertension,62.4,134.4,49,161.5,2.6,3.0,High,Low
+Sutter,Hypertension,43.4,91.9,49,161.5,3.6,3.0,Low,Low
+Tehama,Hypertension,52.8,58.4,49,161.5,2.2,3.0,High,Low
+Trinity,Hypertension,30.9,48.7,49,161.5,3.5,3.0,Low,Low
+Tulare,Hypertension,41.6,98.6,49,161.5,3.3,3.0,Low,Low
+Tuolumne,Hypertension,49.1,116.5,49,161.5,3.3,3.0,High,Low
+Ventura,Hypertension,45.0,146.9,49,161.5,2.8,3.0,Low,Low
+Yolo,Hypertension,24.8,122.4,49,161.5,2.2,3.0,Low,Low
+Yuba,Hypertension,59.1,61.1,49,161.5,5.2,3.0,High,Low
+Alameda,Urinary Tract Infection,59.6,150.8,84.4,140.1,3.7,3.7,Low,High
+Alpine,Urinary Tract Infection,0.0,0.0,84.4,140.1,0.0,3.7,Low,Low
+Amador,Urinary Tract Infection,104.8,105.9,84.4,140.1,2.9,3.7,High,Low
+Butte,Urinary Tract Infection,111.5,88.6,84.4,140.1,3.9,3.7,High,Low
+Calaveras,Urinary Tract Infection,132.8,44.2,84.4,140.1,3.0,3.7,High,Low
+Colusa,Urinary Tract Infection,186.1,48.2,84.4,140.1,3.8,3.7,High,Low
+Contra Costa,Urinary Tract Infection,63.0,160.9,84.4,140.1,3.4,3.7,Low,High
+Del Norte,Urinary Tract Infection,57.1,79.9,84.4,140.1,2.8,3.7,Low,Low
+El Dorado,Urinary Tract Infection,83.8,83.1,84.4,140.1,3.2,3.7,Low,Low
+Fresno,Urinary Tract Infection,144.2,137.4,84.4,140.1,4.5,3.7,High,Low
+Glenn,Urinary Tract Infection,193.6,18.2,84.4,140.1,3.7,3.7,High,Low
+Humboldt,Urinary Tract Infection,73.3,109.3,84.4,140.1,4.7,3.7,Low,Low
+Imperial,Urinary Tract Infection,109.5,41.0,84.4,140.1,3.7,3.7,High,Low
+Inyo,Urinary Tract Infection,47.1,124.6,84.4,140.1,7.1,3.7,Low,Low
+Kern,Urinary Tract Infection,81.5,92.2,84.4,140.1,4.0,3.7,Low,Low
+Kings,Urinary Tract Infection,50.0,72.4,84.4,140.1,4.5,3.7,Low,Low
+Lake,Urinary Tract Infection,152.9,52.2,84.4,140.1,3.8,3.7,High,Low
+Lassen,Urinary Tract Infection,110.9,47.2,84.4,140.1,3.9,3.7,High,Low
+Los Angeles,Urinary Tract Infection,89.0,139.7,84.4,140.1,3.5,3.7,High,Low
+Madera,Urinary Tract Infection,114.3,49.8,84.4,140.1,3.4,3.7,High,Low
+Marin,Urinary Tract Infection,56.3,195.0,84.4,140.1,3.5,3.7,Low,High
+Mariposa,Urinary Tract Infection,194.5,42.1,84.4,140.1,4.6,3.7,High,Low
+Mendocino,Urinary Tract Infection,75.1,101.8,84.4,140.1,3.4,3.7,Low,Low
+Merced,Urinary Tract Infection,87.1,57.6,84.4,140.1,3.7,3.7,High,Low
+Modoc,Urinary Tract Infection,318.6,146.1,84.4,140.1,4.9,3.7,High,High
+Mono,Urinary Tract Infection,64.8,109.4,84.4,140.1,2.4,3.7,Low,Low
+Monterey,Urinary Tract Infection,125.2,122.2,84.4,140.1,3.7,3.7,High,Low
+Napa,Urinary Tract Infection,58.4,146.5,84.4,140.1,2.6,3.7,Low,High
+Nevada,Urinary Tract Infection,84.8,119.6,84.4,140.1,2.9,3.7,High,Low
+Orange,Urinary Tract Infection,76.7,160.5,84.4,140.1,3.5,3.7,Low,High
+Placer,Urinary Tract Infection,78.5,195.7,84.4,140.1,3.8,3.7,Low,High
+Plumas,Urinary Tract Infection,213.9,100.9,84.4,140.1,3.0,3.7,High,Low
+Riverside,Urinary Tract Infection,88.0,97.8,84.4,140.1,3.7,3.7,High,Low
+Sacramento,Urinary Tract Infection,81.4,160.6,84.4,140.1,4.0,3.7,Low,High
+San Benito,Urinary Tract Infection,86.0,32.5,84.4,140.1,3.0,3.7,High,Low
+San Bernardino,Urinary Tract Infection,102.1,114.7,84.4,140.1,3.7,3.7,High,Low
+San Diego,Urinary Tract Infection,82.5,156.7,84.4,140.1,3.4,3.7,Low,High
+San Francisco,Urinary Tract Infection,65.4,289.5,84.4,140.1,3.8,3.7,Low,High
+San Joaquin,Urinary Tract Infection,72.3,106.4,84.4,140.1,3.6,3.7,Low,Low
+San Luis Obispo,Urinary Tract Infection,84.9,106.9,84.4,140.1,4.4,3.7,High,Low
+San Mateo,Urinary Tract Infection,53.3,149.9,84.4,140.1,3.6,3.7,Low,High
+Santa Barbara,Urinary Tract Infection,75.8,125.8,84.4,140.1,3.6,3.7,Low,Low
+Santa Clara,Urinary Tract Infection,65.1,175.9,84.4,140.1,4.4,3.7,Low,High
+Santa Cruz,Urinary Tract Infection,91.4,157.8,84.4,140.1,3.9,3.7,High,High
+Shasta,Urinary Tract Infection,111.6,124.9,84.4,140.1,4.3,3.7,High,Low
+Sierra,Urinary Tract Infection,112.4,0.0,84.4,140.1,4.7,3.7,High,Low
+Siskiyou,Urinary Tract Infection,81.3,105.3,84.4,140.1,3.0,3.7,Low,Low
+Solano,Urinary Tract Infection,68.8,140.1,84.4,140.1,3.9,3.7,Low,High
+Sonoma,Urinary Tract Infection,73.3,155.4,84.4,140.1,3.5,3.7,Low,High
+Stanislaus,Urinary Tract Infection,87.3,109.9,84.4,140.1,4.3,3.7,High,Low
+Sutter,Urinary Tract Infection,123.5,87.0,84.4,140.1,4.8,3.7,High,Low
+Tehama,Urinary Tract Infection,71.0,59.0,84.4,140.1,3.5,3.7,Low,Low
+Trinity,Urinary Tract Infection,116.0,13.2,84.4,140.1,3.1,3.7,High,Low
+Tulare,Urinary Tract Infection,93.0,88.3,84.4,140.1,4.4,3.7,High,Low
+Tuolumne,Urinary Tract Infection,91.4,86.6,84.4,140.1,4.0,3.7,High,Low
+Ventura,Urinary Tract Infection,107.3,132.0,84.4,140.1,3.8,3.7,High,Low
+Yolo,Urinary Tract Infection,47.3,116.1,84.4,140.1,3.0,3.7,Low,Low
+Yuba,Urinary Tract Infection,108.7,37.8,84.4,140.1,4.7,3.7,High,Low

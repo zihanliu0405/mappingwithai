@@ -1,0 +1,10 @@
+﻿{
+    "health_rows":  58,
+    "boundary_features":  58,
+    "matched_counties":  58,
+    "unmatched_counties":  0,
+    "unique_join_key":  "GEOID",
+    "coordinate_system":  "WGS84 longitude, latitude (EPSG:4326)",
+    "min_uninsured_pct":  3.279,
+    "max_uninsured_pct":  48.617
+}

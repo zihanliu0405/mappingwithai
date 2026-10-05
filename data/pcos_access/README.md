@@ -1,4 +1,26 @@
-﻿# California PCOS care access: public mapping data
+# California PCOS care access: public mapping data
+
+## Tract extension: October 4, 2026
+
+`california_tracts_women_insurance.csv` extends the insurance measure to California tracts. `TRACT_DATA_DICTIONARY.md` defines fields, formulas, universes, missing values and analyses. `tract_validation.json` and `tract_county_reconciliation.csv` provide checks; actual results are below and in the page.
+
+Verified official sources:
+
+- ACS bulk directory: https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/ (files `acsdt5y2024-b27001.dat`, `acsdt5y2024-b17001.dat`, `acsdt5y2024-c27007.dat`, `acsdt5y2024-b19013.dat`). California state/county/tract rows and all published cells/MOEs are retained in `tract_sources/`.
+- Metadata: https://api.census.gov/data/2024/acs/acs5/groups.html ; table-specific JSON files are retained locally.
+- 2020 boundaries: https://www2.census.gov/geo/tiger/GENZ2020/shp/cb_2020_06_tract_500k.zip
+- USDA RUCA: https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes ; exact CSV URL and hashes in `tract_sources/manifest.json`.
+- RUCA documentation: https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes/documentation
+
+RUCA has explicit `TractFIPS20` keys, directly joined to 11-character ACS GEOIDs; no 2010 crosswalk is needed or guessed. RUCA combines 2020 population/urban delineations with **2017–2021 commuting flows**, a different period from 2020–2024 insurance. Do not substitute ZIP RUCA. Primary codes 1–3 / 4–6 / 7–9 / 10 become urban / large rural / small rural / isolated; code 99 stays unknown.
+
+Geometry uses already-generalized, land-clipped Census 1:500,000 cartographic boundaries, simplified with Shapely shared-boundary coverage simplification at 0.0005 degrees. Source coverage and resulting polygons are validated. All source features/GEOIDs are retained. Twenty zero-population ACS tracts lack polygons in this product and remain in the CSV. GeoJSON works directly with MapLibre, requiring no extra browser dependency. Tract geometry measures 2.47 MB gzipped and loads on demand, after the initial county map. Measured gzip size is not a guarantee about a host's transfer encoding.
+
+Poverty is B17001_002E / _001E, all people with determined poverty status. Medicaid/means-tested coverage is C27007_004E + _007E + _010E + _014E + _017E + _020E divided by _001E, all ages and both sexes in the civilian noninstitutionalized population. These universes differ from women 19–44. Medicaid is not all public insurance. Household median income is B19013_001E. Missing/sentinel ACS values are not zero-filled.
+
+Counts are survey-estimated women, not patients. Insurance is an access proxy, not care received. PCOS prevalence, diagnoses and delays are unavailable at this scale and are not inferred. Tract associations describe places, not individuals. ACS five-year estimates are not a current snapshot. Wide MOEs favor reading groups of tracts, not individual rankings. CV filtering favors higher uninsured estimates; reliable-only results are not representative of all tracts, and rural subgroup sizes are especially small. Survey error, spatial dependence, omitted variables and covariate universe differences limit interpretation.
+
+Run the Python download/build/publish scripts in `/scripts`; see root README for commands. Build is offline after download and checks keys, counts, geometry and size. Publish refreshes static HTML, README findings and bundle. The bundle includes California raw extracts, metadata and original tract boundary ZIP. County files remain unchanged; the two historical raw/metadata files were recovered from the existing bundle.
 
 This dataset measures an insurance-related barrier to potential PCOS care: the percentage of civilian noninstitutionalized females ages 19-44 without health insurance. It does NOT measure PCOS prevalence, diagnoses, treatment, unmet need among PCOS patients, or confirmed provider access. Research question: Where in California are women ages 19-44 most likely to lack insurance, potentially complicating access to PCOS evaluation and care?
 
@@ -8,7 +30,7 @@ This dataset measures an insurance-related barrier to potential PCOS care: the p
 - california_pcos_access.geojson: the same boundaries with the insurance data already joined.
 - acs_b27001_california_counties_raw.csv: original Census fields for all 58 counties, including published margins of error.
 - acs_b27001_metadata.json: Census variable definitions (API naming places E/M after the number; bulk-file naming puts E/M before the number).
-- prepare_data.ps1: reproducible processing script; requires the two full source files retained alongside it in the workspace. Download URLs below.
+- prepare_data.ps1: reproducible processing script; requires downloading the national bulk source alongside the county boundary source. Download URLs below.
 - validation.json: join and basic range validation results.
 
 ## Health/access source and calculations
@@ -60,4 +82,19 @@ The Census API returned a Missing Key page, so the actual data were obtained fro
 HCAI physician supply data were also inspected, but they combine specialties into condition-specific groups rather than isolate PCOS-related providers. Those exploratory files are not included in the mapping bundle, and the prepared data make no claims about specialist counts or travel time.
 
 ## Reproduction
-Download the bulk source to acsdt5y2024-b27001.dat and the full boundary source to california_counties_source.geojson in this directory, then run prepare_data.ps1 in PowerShell. The workspace retains both source files. The ZIP omits the national bulk file to keep it compact; it includes the complete California county extract. No external PowerShell modules are required.
+Download the bulk source to acsdt5y2024-b27001.dat and the full boundary source to california_counties_source.geojson in this directory, then run prepare_data.ps1 in PowerShell. The checkout retains the county boundary source; download the national bulk file separately, or use the new Python pipeline and its retained California extracts. The ZIP omits the national bulk file to keep it compact; it includes the complete California county extract. No external PowerShell modules are required.
+
+
+<!-- tract-checks-start -->
+## Computed tract checks
+
+9,129 ACS tracts: 90 with zero women and 54 with 1–49 women; 144 suppressed, 8,636 low reliability, and 349 reliable. 8,985 have denominators of at least 50 (usable for descriptive concentration, not necessarily reliable). Reliable rate distribution: min 4.38%, Q1 18.25%, median 22.61%, Q3 27.65%, max 45.97%; moment skewness 0.359. Geometry: 9,109; ACS: 9,129; matched: 9,109; geometry-only: 0; ACS-only: 20 zero-population tracts omitted by the cartographic geometry. RUCA matches all 9,129 ACS tracts. Tract sums exactly match all 58 county numerator and denominator counts: 571,146 / 6,939,418 = 8.2305% statewide, rounding to 8.2%. The largest rate difference from the rounded county CSV is 0.000500 percentage points.
+
+The top 899 of 8,985 non-suppressed tracts (top 10%, rounded up) contain 28.95% of statewide estimated uninsured women. Ties use GEOID order. The excluded small-denominator tracts contain 96 uninsured women, so the curve ends just below 100%.
+
+County membership explains 8.35% of population-weighted variation in rates across 8,985 non-suppressed tracts; 91.65% is within counties. Among 349 reliable tracts, those shares are 23.08% between and 76.92% within counties.
+
+Pearson correlations (reliable tracts only): poverty_rate: r = 0.202, n = 349; medicaid_share: r = 0.122, n = 349.
+
+Reliable-only, unweighted OLS (n = 349, R² = 0.064): a 1 percentage-point increase in poverty is associated with 0.172 percentage points in uninsured rate, and a 1-point increase in Medicaid share with 0.006 points, adjusting for the other covariate and rurality. Relative to urban, coefficients are -4.394 points for large rural, -0.828 for small rural, and -5.702 for isolated; intercept 20.113. These are exploratory associations without causal or statistical-significance claims. Reliable group sizes: large rural 5, small rural 1, isolated 11, urban 332.
+<!-- tract-checks-end -->

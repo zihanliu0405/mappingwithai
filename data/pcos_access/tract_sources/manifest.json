@@ -1,0 +1,35 @@
+{
+  "download_date": "2026-10-04",
+  "sources": [
+    {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b27001.dat",
+      "extract": "B27001_california.csv",
+      "sha256": "54e7c5ef66eef48b0f99e561e4e28ee475aaff6964d16d5b96c013243dde9a3e"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "extract": "B17001_california.csv",
+      "sha256": "dfac95d579b7d0e587fb68f491ac10563fc0327c72c67d32b7b8379da2426982"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-c27007.dat",
+      "extract": "C27007_california.csv",
+      "sha256": "ce8caec9f7501d8c289237ae162e6241e0ee458c3583c961c84a0fdde4355dc4"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "extract": "B19013_california.csv",
+      "sha256": "f9d2522c5e555b93e5a74a39614b92ddf92e9d7e2fd7450b9537a0ee2f4db6f0"
+    },
+    {
+      "url": "https://www2.census.gov/geo/tiger/GENZ2020/shp/cb_2020_06_tract_500k.zip",
+      "file": "cb_2020_06_tract_500k.zip",
+      "sha256": "ed10e8c94f46d77f90c46388cf4cc53c8102c72820aa84975d4264f5fd2978da"
+    },
+    {
+      "url": "https://www.ers.usda.gov/media/5443/2020-rural-urban-commuting-area-codes-census-tracts.csv?v=43472",
+      "file": "ruca2020.csv",
+      "sha256": "e056ee1bcf387e39c220f20a506801030c1105351fa8a1bb814d0a686013a8a8"
+    }
+  ]
+}

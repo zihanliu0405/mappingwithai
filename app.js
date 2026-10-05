@@ -34,6 +34,7 @@ function choose(id,zoom){
  document.getElementById('county-detail').innerHTML=`<h3 class="county-name">${r.county} County</h3><div class="county-value">${pct(r.uninsured_pct)}<span>%</span></div><p class="county-sub">uninsured · women ages 19–44</p><div class="detail-row"><span>Estimated uninsured</span><strong>${fmt(r.female_19_44_uninsured)}</strong></div><div class="detail-row"><span>Population in age group</span><strong>${fmt(r.female_19_44_population)}</strong></div><div class="detail-row"><span>California comparison</span><strong>${delta>=0?'+':''}${pct(delta)} pp</strong></div><div class="uncertainty"><strong>Uncertainty: ±${pct(moe)} pp</strong><br>Approximate 90% interval: ${pct(Math.max(0,r.uninsured_pct-moe))}–${pct(Math.min(100,r.uninsured_pct+moe))}%.${moe>r.uninsured_pct/2?' This estimate has substantial uncertainty.':''}</div>`;
  if(mapReady){map.setFilter('county-selected',['==',['get','GEOID'],id]);if(zoom){const feature=geography.features.find(f=>f.properties.GEOID===id);const points=feature.geometry.coordinates.flat(feature.geometry.type==='MultiPolygon'?2:1);let bounds=new maplibregl.LngLatBounds();points.forEach(p=>bounds.extend(p));map.fitBounds(bounds,{padding:65,maxZoom:8,duration:window.matchMedia('(prefers-reduced-motion: reduce)').matches?0:650});}}
  drawCharts();
+ window.dispatchEvent(new CustomEvent('countychange',{detail:id}));
 }
 function initMap(){
  map=new maplibregl.Map({container:'map',style:'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',center:[-119.5,37.2],zoom:4.8,attributionControl:true});
@@ -53,9 +54,10 @@ function initMap(){
   map.addLayer({id:'county-selected',type:'line',source:'counties',filter:['==',['get','GEOID'],selected],paint:{'line-color':'#183c32','line-width':3}},labelLayer);
   mapReady=true;reset();showError('');
   const popup=new maplibregl.Popup({closeButton:false,closeOnClick:false});
-  map.on('mousemove','county-fill',e=>{map.getCanvas().style.cursor='pointer';const p=e.features[0].properties;popup.setLngLat(e.lngLat).setHTML(`<strong>${p.county} County</strong><br>${pct(p.uninsured_pct)}% uninsured · ±${pct(p.uninsured_pct_moe90_approx)} pp<br><small>Click to explore</small>`).addTo(map);});
+  map.on('mousemove','county-fill',e=>{if(window.tractModeActive)return;map.getCanvas().style.cursor='pointer';const p=e.features[0].properties;popup.setLngLat(e.lngLat).setHTML(`<strong>${p.county} County</strong><br>${pct(p.uninsured_pct)}% uninsured · ±${pct(p.uninsured_pct_moe90_approx)} pp<br><small>Click to explore</small>`).addTo(map);});
   map.on('mouseleave','county-fill',()=>{map.getCanvas().style.cursor='';popup.remove();});
-  map.on('click','county-fill',e=>{popup.remove();choose(e.features[0].properties.GEOID,false);});
+  map.on('click','county-fill',e=>{if(window.tractModeActive)return;popup.remove();choose(e.features[0].properties.GEOID,false);});
+  window.dispatchEvent(new Event('countymapready'));
  });
 }
 function drawCharts(){

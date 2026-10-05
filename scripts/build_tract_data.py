@@ -133,9 +133,16 @@ def main():
         props = {'GEOID': geoid, 'reliability': row['reliability'] if row else 'unmatched',
                  'uninsured_pct': 100*row['uninsured_rate'] if row and row['uninsured_rate'] is not None else None}
         features.append({'type':'Feature','properties':props,'geometry':mapping(geometry)})
+    assert bool(shapely.coverage_is_valid(simplified)), 'Simplification damaged shared boundaries'
+    missing_geometry = set(lookup)-set(ids)
+    assert all(lookup[g]['total_women_19_44']==0 for g in missing_geometry), 'Populated ACS tract lacks geometry'
+    assert not (set(ids)-set(lookup)), 'Geometry tract lacks ACS data'
+    assert not (set(lookup)-set(ruca)), 'ACS tract lacks verified RUCA join'
     geo_path = DATA / 'california_tracts_simplified.geojson'
     write_json(geo_path, {'type':'FeatureCollection','features':features})
     gz_size = len(gzip.compress(geo_path.read_bytes(), mtime=0))
+    initial_files = ['california_pcos_access.geojson','california_women_insurance.csv','california_tracts_women_insurance.csv']
+    initial_gzip = sum(len(gzip.compress((DATA/name).read_bytes(), mtime=0)) for name in initial_files)
     county_differences = []
     for geoid, county in counties.items():
         subset = [r for r in records if r['county_geoid'] == geoid]
@@ -182,7 +189,8 @@ def main():
                'geometry_only':sorted(set(ids)-set(lookup)), 'acs_only':sorted(set(lookup)-set(ids)),
                'ruca_matched':len(set(ruca)&set(lookup)), 'ruca_missing':sorted(set(lookup)-set(ruca))},
         geometry={'source_coverage_valid':valid_coverage,'simplification_degrees':.0005 if valid_coverage else 0,
-                  'bytes':geo_path.stat().st_size,'gzip_bytes':gz_size},
+                  'bytes':geo_path.stat().st_size,'gzip_bytes':gz_size,
+                  'initial_county_and_csv_gzip_bytes':initial_gzip},
         statewide={'uninsured':n_state,'total':d_state,'rate':n_state/d_state,'matches_existing_count':n_state==571146,'matches_existing_rounded_rate':round(100*n_state/d_state,1)==8.2},
         reconciliation={'counties':len(counties),'max_abs_uninsured_difference':max(abs(r['uninsured_difference']) for r in county_differences),
                         'max_abs_population_difference':max(abs(r['population_difference']) for r in county_differences),
@@ -194,9 +202,12 @@ def main():
         variance_all_usable=variance_partition(usable), variance_reliable=variance_partition(reliable),
         correlations=correlations, regression=regression, rurality_reliable=groups)
     write_json(DATA / 'tract_validation.json', summary)
+    initial_total = initial_gzip + len(gzip.compress((DATA / 'tract_validation.json').read_bytes(), mtime=0))
     print(json.dumps({k:v for k,v in summary.items() if k!='concentration'}, indent=2))
     print('Top decile:', {k:v for k,v in summary['concentration'].items() if k!='curve'})
     assert gz_size < 3_000_000, 'Tract geometry exceeds gzip budget'
+    assert initial_total < 3_000_000, 'Initial county/chart data exceed gzip budget'
+    print('Initial county/chart local data gzip bytes:', initial_total)
     return summary
 
 if __name__ == '__main__':

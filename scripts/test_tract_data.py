@@ -5,7 +5,6 @@ import json
 import math
 from pathlib import Path
 import unittest
-import numpy as np
 from build_tract_data import proportion, reliability, number, variance_partition
 
 DATA = Path(__file__).resolve().parents[1] / 'data/pcos_access'

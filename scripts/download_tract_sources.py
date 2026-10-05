@@ -2,7 +2,6 @@
 import csv
 import datetime
 import hashlib
-import io
 import json
 from pathlib import Path
 import urllib.request
